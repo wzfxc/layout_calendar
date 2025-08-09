@@ -3,7 +3,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
 }
 
 $day-size: 100px;
@@ -70,13 +69,13 @@ $border-color: #000;
 }
 
 $start-days: (
-  mon: 1,
-  tue: 2,
+  mon: 0,
+  tue: 1,
   wed: 2,
-  thu: 4,
-  fri: 5,
+  thu: 3,
+  fri: 4,
+  sat: 5,
   sun: 6,
-  sat: 7,
 );
 
 @each $day, $index in $start-days {
